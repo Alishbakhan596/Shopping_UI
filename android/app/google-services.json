@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "464253847772",
+    "project_id": "shoppingui-dd46a",
+    "storage_bucket": "shoppingui-dd46a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464253847772:android:119559461a7716bdfe4c19",
+        "android_client_info": {
+          "package_name": "com.example.shoppingui"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJvROSfcP0Wp9YOmpExCF__OAEFjJr6pY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
