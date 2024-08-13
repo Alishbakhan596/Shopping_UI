@@ -38,6 +38,7 @@ dependencies:
   firebase_core: ^3.3.0
   firebase_auth: ^5.1.4
   cloud_firestore: ^5.2.1
+  curved_navigation_bar: ^1.0.6
 
 dev_dependencies:
   flutter_test:
@@ -76,7 +77,7 @@ flutter:
     - assets/images/image (1).png
     - assets/images/Icon.png
     - assets/images/Icon (1).png
-    - assets/images/Icon (2).png
+    - assets/images/Icon (3).png
     - assets/images/Icon (3).png
     - assets/images/Icon (5).png
     - assets/images/Icon (6).png
@@ -88,6 +89,9 @@ flutter:
     - assets/images/Icon (12).png
     - assets/images/Image (2).png
     - assets/images/Image (3).png
+    - assets/images/Logo.png
+    - assets/images/Line.png
+    - assets/images/picture.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

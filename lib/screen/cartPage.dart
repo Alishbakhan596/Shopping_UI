@@ -12,20 +12,16 @@ class CartPage extends StatelessWidget {
         children: [
           CartAppBar(),
           Container(
-            height: 700,
+            height: 950,
             padding: EdgeInsets.only(top: 15),
             decoration: BoxDecoration(
-              color: Color(0xFFEDECF2),
+              color: Colors.white,
               borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(35),
                 topRight: Radius.circular(35),
               ),
             ),
-            child: Column(
-              children: [
-                CartItemSamples(),
-              ],
-            ),
+            child: CartItemSamples(),
           ),
         ],
       ),

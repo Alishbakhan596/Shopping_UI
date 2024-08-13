@@ -1,5 +1,3 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:shoppingui/screen/USers.dart';
@@ -8,7 +6,7 @@ import 'package:shoppingui/screen/home_screen.dart';
 import 'package:shoppingui/utils/colors.dart';
 import 'package:shoppingui/widgets/CartAppBar.dart';
 
-class ProductsDetail extends StatelessWidget {
+class Headphone extends StatelessWidget {
   List<Color> Clrs = [
     Colors.purple,
     Colors.blue,
@@ -42,7 +40,7 @@ class ProductsDetail extends StatelessWidget {
                 CircleAvatar(
                   backgroundColor: Colors.white,
                   radius: 150.0,
-                  child: Image.asset("assets/images/Image (2).png"),
+                  child: Image.asset("assets/images/7.jpeg"),
                 ),
                 SizedBox(height: 16.0),
                 Column(
@@ -157,7 +155,6 @@ class ProductsDetail extends StatelessWidget {
               ],
             ),
           ),
-
           Container(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
@@ -196,119 +193,8 @@ class ProductsDetail extends StatelessWidget {
                   style: TextStyle(color: Colors.white),
                 ),
               )),
-          // BottomAppBar(
-          //   child: Container(
-          //     child: Row(
-          //       mainAxisAlignment: MainAxisAlignment.spaceAround,
-          //       children: [
-          //         Row(
-          //           children: [
-          //             IconButton(
-          //                 onPressed: () {
-          //                   Navigator.push(
-          //                       context,
-          //                       MaterialPageRoute(
-          //                           builder: (context) => HomeScreen()));
-          //                 },
-          //                 icon: Icon(
-          //                   Icons.home,
-          //                   size: 30,
-          //                   color: const Color.fromRGBO(170, 20, 240, 1),
-          //                 )),
-          //             IconButton(
-          //                 onPressed: () {
-          //                   Navigator.push(
-          //                       context,
-          //                       MaterialPageRoute(
-          //                           builder: (context) => ProductsDetail()));
-          //                 },
-          //                 icon: Icon(
-          //                   Icons.favorite,
-          //                   size: 30,
-          //                   color: const Color.fromRGBO(170, 20, 240, 1),
-          //                 )),
-          //             IconButton(
-          //                 onPressed: () {
-          //                   Navigator.push(
-          //                       context,
-          //                       MaterialPageRoute(
-          //                           builder: (context) => CartPage()));
-          //                 },
-          //                 icon: Icon(
-          //                   Icons.local_grocery_store_outlined,
-          //                   size: 30,
-          //                   color: const Color.fromRGBO(170, 20, 240, 1),
-          //                 )),
-          //             IconButton(
-          //                 onPressed: () {
-          //                   Navigator.push(
-          //                       context,
-          //                       MaterialPageRoute(
-          //                           builder: (context) => Users()));
-          //                 },
-          //                 icon: Icon(
-          //                   Icons.person,
-          //                   size: 30,
-          //                   color: const Color.fromRGBO(170, 20, 240, 1),
-          //                 )),
-          //           ],
-          //         ),
-          //       ],
-          //     ),
-          //   ),
-          // ),
         ]),
       ),
-      bottomNavigationBar: CurvedNavigationBar(
-          backgroundColor: Colors.transparent,
-          onTap: (index) {},
-          height: 70,
-          color: Color.fromRGBO(170, 20, 240, 1),
-          items: [
-            IconButton(
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => HomeScreen()));
-              },
-              icon: Icon(
-                Icons.home,
-                size: 40,
-                color: Colors.white,
-              ),
-            ),
-            IconButton(
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => ProductsDetail()));
-              },
-              icon: Icon(
-                Icons.favorite,
-                size: 40,
-                color: Colors.white,
-              ),
-            ),
-            IconButton(
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => CartPage()));
-              },
-              icon: Icon(
-                Icons.local_grocery_store,
-                size: 40,
-                color: Colors.white,
-              ),
-            ),
-            IconButton(
-                onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Users()));
-                },
-                icon: Icon(
-                  Icons.person,
-                  size: 40,
-                  color: Colors.white,
-                )),
-          ]),
     );
   }
 }
